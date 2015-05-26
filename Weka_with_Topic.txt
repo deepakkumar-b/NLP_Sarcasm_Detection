@@ -1,0 +1,96 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LibSVM -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 100.0 -E 0.001 -P 0.1 -model "C:\\Program Files (x86)\\Weka-3-7" -seed 1
+Relation:     relation
+Instances:    1928
+Attributes:   52
+              attr0
+              attr1
+              attr2
+              attr3
+              attr4
+              attr5
+              attr6
+              attr7
+              attr8
+              attr9
+              attr10
+              attr11
+              attr12
+              attr13
+              attr14
+              attr15
+              attr16
+              attr17
+              attr18
+              attr19
+              attr20
+              attr21
+              attr22
+              attr23
+              attr24
+              attr25
+              attr26
+              attr27
+              attr28
+              attr29
+              attr30
+              attr31
+              attr32
+              attr33
+              attr34
+              attr35
+              attr36
+              attr37
+              attr38
+              attr39
+              attr40
+              attr41
+              attr42
+              attr43
+              attr44
+              attr45
+              attr46
+              attr47
+              attr48
+              attr49
+              attr50
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 1.35 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.35 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         562               57.0558 %
+Incorrectly Classified Instances       423               42.9442 %
+Kappa statistic                          0.1438
+Mean absolute error                      0.4294
+Root mean squared error                  0.6553
+Relative absolute error                 85.8802 %
+Root relative squared error            131.0487 %
+Coverage of cases (0.95 level)          57.0558 %
+Mean rel. region size (0.95 level)      50      %
+Total Number of Instances              985     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.674    0.530    0.552      0.674    0.607      0.147    0.572     0.533     Yes
+                 0.470    0.326    0.598      0.470    0.526      0.147    0.572     0.550     No
+Weighted Avg.    0.571    0.426    0.576      0.571    0.566      0.147    0.572     0.542     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 327 158 |   a = Yes
+ 265 235 |   b = No
+
